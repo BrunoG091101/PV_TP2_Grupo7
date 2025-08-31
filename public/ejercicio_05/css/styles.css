@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: "Mozilla Headline";
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 50vh;
+    border: medium double black;
+}
+
+#container h2, h4 {
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+}

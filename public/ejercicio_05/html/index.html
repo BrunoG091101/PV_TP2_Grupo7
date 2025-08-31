@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Tp JS</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Simulador de salario mensual</h2>
+        <h4>Ingresa tus datos y calcula tu pago mensual</h4>
+
+        <form action="" id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+
+            <label for="horasTrabajadas">Horas trabajadas al mes:</label>
+            <input type="number" id="horasTrabajadas">
+
+            <label for="pagoPorHora">Pago por hora:</label>
+            <input type="number" id="pagoPorHora">
+
+            <button type="button" onclick="calcularPago()">Calcular pago</button>
+
+            <label id="pagoMensual"></label>
+
+        </form>
+    </div>
+    <script src="/src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+main {
+    width: calc(100% - 12rem);
+    min-height: 100dvh;
+    margin-inline: auto;
+    background-color: #24C2BC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: #971C20;
+    border-radius: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.saludo {
+    padding: 2rem;
+    background-color: #C22429;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.gestion {
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 28px;
+}
+
+.nombre, .apellido, .libreta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+}
